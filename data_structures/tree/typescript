@@ -1,0 +1,523 @@
+Script started on 2019-12-04 20:10:19-05:00 [TERM="xterm-256color" TTY="/dev/pts/21" COLUMNS="109" LINES="55"]
+]0;nhudak3@erdos:~/data/tree[nhudak3@erdos tree]$ g++ -c main.cpp
+]0;nhudak3@erdos:~/data/tree[nhudak3@erdos tree]$ g++ -c queue.cpp
+]0;nhudak3@erdos:~/data/tree[nhudak3@erdos tree]$ g++ -c tree.cpp
+]0;nhudak3@erdos:~/data/tree[nhudak3@erdos tree]$ g++ -o test main.o queue.o tree.o
+]0;nhudak3@erdos:~/data/tree[nhudak3@erdos tree]$ ./test
+Menu:
+---------------------------------
+A: PutItem
+D: DeleteItem
+S: GetItem
+I: info, length, isFull, height...
+P: PrintTree
+Q: SimplePrintTree
+R: (Iterator) ResetTree, GetNextItem
+C: MakeEmpty
+B: Build tree from array
+G: GetNodesAtLevel
+N: PrintAncestors
+M: GetSmallest
+O: Create a balanced BST from an array
+E: Quit
+---------------------------------
+
+Choose what to do: A
+Enter a char to insert: m
+m is inserted
+Menu:
+---------------------------------
+A: PutItem
+D: DeleteItem
+S: GetItem
+I: info, length, isFull, height...
+P: PrintTree
+Q: SimplePrintTree
+R: (Iterator) ResetTree, GetNextItem
+C: MakeEmpty
+B: Build tree from array
+G: GetNodesAtLevel
+N: PrintAncestors
+M: GetSmallest
+O: Create a balanced BST from an array
+E: Quit
+---------------------------------
+
+Choose what to do: A
+Enter a char to insert: l
+l is inserted
+Menu:
+---------------------------------
+A: PutItem
+D: DeleteItem
+S: GetItem
+I: info, length, isFull, height...
+P: PrintTree
+Q: SimplePrintTree
+R: (Iterator) ResetTree, GetNextItem
+C: MakeEmpty
+B: Build tree from array
+G: GetNodesAtLevel
+N: PrintAncestors
+M: GetSmallest
+O: Create a balanced BST from an array
+E: Quit
+---------------------------------
+
+Choose what to do: A
+Enter a char to insert: r
+r is inserted
+Menu:
+---------------------------------
+A: PutItem
+D: DeleteItem
+S: GetItem
+I: info, length, isFull, height...
+P: PrintTree
+Q: SimplePrintTree
+R: (Iterator) ResetTree, GetNextItem
+C: MakeEmpty
+B: Build tree from array
+G: GetNodesAtLevel
+N: PrintAncestors
+M: GetSmallest
+O: Create a balanced BST from an array
+E: Quit
+---------------------------------
+
+Choose what to do: P
+   m   
+ /   \   
+ l   r   
+/   \   /   \   
+#   #   #   #   
+
+Menu:
+---------------------------------
+A: PutItem
+D: DeleteItem
+S: GetItem
+I: info, length, isFull, height...
+P: PrintTree
+Q: SimplePrintTree
+R: (Iterator) ResetTree, GetNextItem
+C: MakeEmpty
+B: Build tree from array
+G: GetNodesAtLevel
+N: PrintAncestors
+M: GetSmallest
+O: Create a balanced BST from an array
+E: Quit
+---------------------------------
+
+Choose what to do: D
+Enter a char to delete: m
+m is deleted
+Menu:
+---------------------------------
+A: PutItem
+D: DeleteItem
+S: GetItem
+I: info, length, isFull, height...
+P: PrintTree
+Q: SimplePrintTree
+R: (Iterator) ResetTree, GetNextItem
+C: MakeEmpty
+B: Build tree from array
+G: GetNodesAtLevel
+N: PrintAncestors
+M: GetSmallest
+O: Create a balanced BST from an array
+E: Quit
+---------------------------------
+
+Choose what to do: P
+   r   
+ /   \   
+ l   #   
+/   \   /   \   
+#   #   #   #   
+
+Menu:
+---------------------------------
+A: PutItem
+D: DeleteItem
+S: GetItem
+I: info, length, isFull, height...
+P: PrintTree
+Q: SimplePrintTree
+R: (Iterator) ResetTree, GetNextItem
+C: MakeEmpty
+B: Build tree from array
+G: GetNodesAtLevel
+N: PrintAncestors
+M: GetSmallest
+O: Create a balanced BST from an array
+E: Quit
+---------------------------------
+
+Choose what to do: G
+Which level would you like to look at starting at 0?: 1
+At level 1, there are 1 nodes.
+Items in row: l 
+Menu:
+---------------------------------
+A: PutItem
+D: DeleteItem
+S: GetItem
+I: info, length, isFull, height...
+P: PrintTree
+Q: SimplePrintTree
+R: (Iterator) ResetTree, GetNextItem
+C: MakeEmpty
+B: Build tree from array
+G: GetNodesAtLevel
+N: PrintAncestors
+M: GetSmallest
+O: Create a balanced BST from an array
+E: Quit
+---------------------------------
+
+Choose what to do: S
+Enter a char to search: l
+l found in list.
+Menu:
+---------------------------------
+A: PutItem
+D: DeleteItem
+S: GetItem
+I: info, length, isFull, height...
+P: PrintTree
+Q: SimplePrintTree
+R: (Iterator) ResetTree, GetNextItem
+C: MakeEmpty
+B: Build tree from array
+G: GetNodesAtLevel
+N: PrintAncestors
+M: GetSmallest
+O: Create a balanced BST from an array
+E: Quit
+---------------------------------
+
+Choose what to do: I
+Number of nodes is 2
+Height of tree is 2
+Tree is not empty.
+Tree is not full.
+Tree is not a full tree - a node has 1 child
+Tree is binary search tree
+Menu:
+---------------------------------
+A: PutItem
+D: DeleteItem
+S: GetItem
+I: info, length, isFull, height...
+P: PrintTree
+Q: SimplePrintTree
+R: (Iterator) ResetTree, GetNextItem
+C: MakeEmpty
+B: Build tree from array
+G: GetNodesAtLevel
+N: PrintAncestors
+M: GetSmallest
+O: Create a balanced BST from an array
+E: Quit
+---------------------------------
+
+Choose what to do: A
+Enter a char to insert: z
+z is inserted
+Menu:
+---------------------------------
+A: PutItem
+D: DeleteItem
+S: GetItem
+I: info, length, isFull, height...
+P: PrintTree
+Q: SimplePrintTree
+R: (Iterator) ResetTree, GetNextItem
+C: MakeEmpty
+B: Build tree from array
+G: GetNodesAtLevel
+N: PrintAncestors
+M: GetSmallest
+O: Create a balanced BST from an array
+E: Quit
+---------------------------------
+
+Choose what to do: I
+Number of nodes is 3
+Height of tree is 2
+Tree is not empty.
+Tree is not full.
+Tree is a full tree (each node has 0 or 2 children
+Tree is binary search tree
+Menu:
+---------------------------------
+A: PutItem
+D: DeleteItem
+S: GetItem
+I: info, length, isFull, height...
+P: PrintTree
+Q: SimplePrintTree
+R: (Iterator) ResetTree, GetNextItem
+C: MakeEmpty
+B: Build tree from array
+G: GetNodesAtLevel
+N: PrintAncestors
+M: GetSmallest
+O: Create a balanced BST from an array
+E: Quit
+---------------------------------
+
+Choose what to do: Q
+r
+lz
+####
+
+Menu:
+---------------------------------
+A: PutItem
+D: DeleteItem
+S: GetItem
+I: info, length, isFull, height...
+P: PrintTree
+Q: SimplePrintTree
+R: (Iterator) ResetTree, GetNextItem
+C: MakeEmpty
+B: Build tree from array
+G: GetNodesAtLevel
+N: PrintAncestors
+M: GetSmallest
+O: Create a balanced BST from an array
+E: Quit
+---------------------------------
+
+Choose what to do: C
+Tree has been made empty
+Menu:
+---------------------------------
+A: PutItem
+D: DeleteItem
+S: GetItem
+I: info, length, isFull, height...
+P: PrintTree
+Q: SimplePrintTree
+R: (Iterator) ResetTree, GetNextItem
+C: MakeEmpty
+B: Build tree from array
+G: GetNodesAtLevel
+N: PrintAncestors
+M: GetSmallest
+O: Create a balanced BST from an array
+E: Quit
+---------------------------------
+
+Choose what to do: B
+Enter a string of chars to build a tree: mfxchr
+Menu:
+---------------------------------
+A: PutItem
+D: DeleteItem
+S: GetItem
+I: info, length, isFull, height...
+P: PrintTree
+Q: SimplePrintTree
+R: (Iterator) ResetTree, GetNextItem
+C: MakeEmpty
+B: Build tree from array
+G: GetNodesAtLevel
+N: PrintAncestors
+M: GetSmallest
+O: Create a balanced BST from an array
+E: Quit
+---------------------------------
+
+Choose what to do: P
+     m   
+   /   \   
+   f   x   
+ /   \   /   \   
+ c   h   r   #   
+/   \   /   \   /   \   /   \   
+#   #   #   #   #   #   #   #   
+
+Menu:
+---------------------------------
+A: PutItem
+D: DeleteItem
+S: GetItem
+I: info, length, isFull, height...
+P: PrintTree
+Q: SimplePrintTree
+R: (Iterator) ResetTree, GetNextItem
+C: MakeEmpty
+B: Build tree from array
+G: GetNodesAtLevel
+N: PrintAncestors
+M: GetSmallest
+O: Create a balanced BST from an array
+E: Quit
+---------------------------------
+
+Choose what to do: R
+Traversal order (preorder, inorder, or postorder): preorder
+Traversing nodes in the given order: m f c h x r 
+Menu:
+---------------------------------
+A: PutItem
+D: DeleteItem
+S: GetItem
+I: info, length, isFull, height...
+P: PrintTree
+Q: SimplePrintTree
+R: (Iterator) ResetTree, GetNextItem
+C: MakeEmpty
+B: Build tree from array
+G: GetNodesAtLevel
+N: PrintAncestors
+M: GetSmallest
+O: Create a balanced BST from an array
+E: Quit
+---------------------------------
+
+Choose what to do: R
+Traversal order (preorder, inorder, or postorder): inorder
+Traversing nodes in the given order: c f h m r x 
+Menu:
+---------------------------------
+A: PutItem
+D: DeleteItem
+S: GetItem
+I: info, length, isFull, height...
+P: PrintTree
+Q: SimplePrintTree
+R: (Iterator) ResetTree, GetNextItem
+C: MakeEmpty
+B: Build tree from array
+G: GetNodesAtLevel
+N: PrintAncestors
+M: GetSmallest
+O: Create a balanced BST from an array
+E: Quit
+---------------------------------
+
+Choose what to do: R
+Traversal order (preorder, inorder, or postorder): postorder
+Traversing nodes in the given order: c h f r x m 
+Menu:
+---------------------------------
+A: PutItem
+D: DeleteItem
+S: GetItem
+I: info, length, isFull, height...
+P: PrintTree
+Q: SimplePrintTree
+R: (Iterator) ResetTree, GetNextItem
+C: MakeEmpty
+B: Build tree from array
+G: GetNodesAtLevel
+N: PrintAncestors
+M: GetSmallest
+O: Create a balanced BST from an array
+E: Quit
+---------------------------------
+
+Choose what to do: G
+Which level would you like to look at starting at 0?: 2
+At level 2, there are 3 nodes.
+Items in row: c h r 
+Menu:
+---------------------------------
+A: PutItem
+D: DeleteItem
+S: GetItem
+I: info, length, isFull, height...
+P: PrintTree
+Q: SimplePrintTree
+R: (Iterator) ResetTree, GetNextItem
+C: MakeEmpty
+B: Build tree from array
+G: GetNodesAtLevel
+N: PrintAncestors
+M: GetSmallest
+O: Create a balanced BST from an array
+E: Quit
+---------------------------------
+
+Choose what to do: N
+Enter a value in the tree: r
+Ancestors of r: m x 
+Menu:
+---------------------------------
+A: PutItem
+D: DeleteItem
+S: GetItem
+I: info, length, isFull, height...
+P: PrintTree
+Q: SimplePrintTree
+R: (Iterator) ResetTree, GetNextItem
+C: MakeEmpty
+B: Build tree from array
+G: GetNodesAtLevel
+N: PrintAncestors
+M: GetSmallest
+O: Create a balanced BST from an array
+E: Quit
+---------------------------------
+
+Choose what to do: M
+The smallest value in the tree is: c
+Menu:
+---------------------------------
+A: PutItem
+D: DeleteItem
+S: GetItem
+I: info, length, isFull, height...
+P: PrintTree
+Q: SimplePrintTree
+R: (Iterator) ResetTree, GetNextItem
+C: MakeEmpty
+B: Build tree from array
+G: GetNodesAtLevel
+N: PrintAncestors
+M: GetSmallest
+O: Create a balanced BST from an array
+E: Quit
+---------------------------------
+
+Choose what to do: O
+Enter a string: azbycxdw
+Balanced tree: 
+       d   
+     /   \   
+     b   x   
+   /   \   /   \   
+   a   c   w   y   
+ /   \   /   \   /   \   /   \   
+ #   #   #   #   #   #   #   z   
+/   \   /   \   /   \   /   \   /   \   /   \   /   \   /   \   
+#   #   #   #   #   #   #   #   #   #   #   #   #   #   #   #   
+Menu:
+---------------------------------
+A: PutItem
+D: DeleteItem
+S: GetItem
+I: info, length, isFull, height...
+P: PrintTree
+Q: SimplePrintTree
+R: (Iterator) ResetTree, GetNextItem
+C: MakeEmpty
+B: Build tree from array
+G: GetNodesAtLevel
+N: PrintAncestors
+M: GetSmallest
+O: Create a balanced BST from an array
+E: Quit
+---------------------------------
+
+Choose what to do: E
+Ok, Exiting
+]0;nhudak3@erdos:~/data/tree[nhudak3@erdos tree]$ exit
+
+Script done on 2019-12-04 20:13:48-05:00 [COMMAND_EXIT_CODE="0"]

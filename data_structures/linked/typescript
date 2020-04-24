@@ -1,0 +1,393 @@
+Script started on 2019-10-30 23:20:26-04:00 [TERM="xterm-256color" TTY="/dev/pts/29" COLUMNS="80" LINES="53"]
+]0;nhudak3@erdos:~/data[nhudak3@erdos data]$ g++ linked.cpp -o linked.out
+]0;nhudak3@erdos:~/data[nhudak3@erdos data]$ ./linked.out
+
+*********Menu*********
+d: delete a value from the unsorted list
+a: append a value to the end of the list
+i: insert a value to the beginning of the list
+m: insert a value before an existing value
+l: lookup a value and modify it in the unsorted list
+c: break a list into two, merge back so that second
+   half becomes first half
+s: show the content of the unsorted list
+n: create a list from the array
+u: union two lists
+o: insert a value into an ordered list
+v: return the length of the ordered list
+q: to exit
+*********Menu*********
+What do you want to do? d
+What value do you want to remove: g
+Before deleting:
+Displaying linked list: 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Value not in the list
+What do you want to do? a
+What value do you want to append to the list? h
+Before appending:
+Displaying linked list: 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+After appending:
+Displaying linked list: 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ Node at 0x1534690
+        value:  h
+        next:   0
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+What do you want to do? i
+What value do you want to insert to beginning? b
+Before inserting:
+Displaying linked list: 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ Node at 0x1534690
+        value:  h
+        next:   0
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+After inserting:
+Displaying linked list: 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ Node at 0x15346b0
+        value:  b
+        next:   0x1534690
+ Node at 0x1534690
+        value:  h
+        next:   0
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+What do you want to do? m
+What value do you want to insert in the middle? d
+Where to insert, before which value? h
+Before inserting:
+Displaying linked list: 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ Node at 0x15346b0
+        value:  b
+        next:   0x1534690
+ Node at 0x1534690
+        value:  h
+        next:   0
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+After inserting:
+Displaying linked list: 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ Node at 0x15346b0
+        value:  b
+        next:   0x15346d0
+ Node at 0x15346d0
+        value:  d
+        next:   0x1534690
+ Node at 0x1534690
+        value:  h
+        next:   0
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+What do you want to do? m
+What value do you want to insert in the middle? b z
+Where to insert, before which value? b
+Before inserting:
+Displaying linked list: 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ Node at 0x15346b0
+        value:  b
+        next:   0x15346d0
+ Node at 0x15346d0
+        value:  d
+        next:   0x1534690
+ Node at 0x1534690
+        value:  h
+        next:   0
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+After inserting:
+Displaying linked list: 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ Node at 0x15346f0
+        value:  z
+        next:   0x15346b0
+ Node at 0x15346b0
+        value:  b
+        next:   0x15346d0
+ Node at 0x15346d0
+        value:  d
+        next:   0x1534690
+ Node at 0x1534690
+        value:  h
+        next:   0
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+What do you want to do? m
+What value do you want to insert in the middle? q
+Where to insert, before which value? g
+Value does not exist
+What do you want to do? d
+What value do you want to remove: z
+Before deleting:
+Displaying linked list: 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ Node at 0x15346f0
+        value:  z
+        next:   0x15346b0
+ Node at 0x15346b0
+        value:  b
+        next:   0x15346d0
+ Node at 0x15346d0
+        value:  d
+        next:   0x1534690
+ Node at 0x1534690
+        value:  h
+        next:   0
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+After deleting:
+Displaying linked list: 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ Node at 0x15346b0
+        value:  b
+        next:   0x15346d0
+ Node at 0x15346d0
+        value:  d
+        next:   0x1534690
+ Node at 0x1534690
+        value:  h
+        next:   0
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+What do you want to do? c
+Cut the list into half in the middle
+Displaying first half: 
+Displaying linked list: 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ Node at 0x15346f0
+        value:  b
+        next:   0x1534710
+ Node at 0x1534710
+        value:  d
+        next:   0
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Displaying second half: 
+Displaying linked list: 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ Node at 0x1534730
+        value:  h
+        next:   0
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Displaying merged list: 
+Displaying linked list: 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ Node at 0x1534730
+        value:  h
+        next:   0x15346f0
+ Node at 0x15346f0
+        value:  b
+        next:   0x1534710
+ Node at 0x1534710
+        value:  d
+        next:   0
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+What do you want to do? l
+What value do you want to look up? b
+What new value do you want to assign to the node? m
+Before modifying:
+Displaying linked list: 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ Node at 0x1534730
+        value:  h
+        next:   0x15346f0
+ Node at 0x15346f0
+        value:  b
+        next:   0x1534710
+ Node at 0x1534710
+        value:  d
+        next:   0
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+After modifying:
+Displaying linked list: 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ Node at 0x1534730
+        value:  h
+        next:   0x15346f0
+ Node at 0x15346f0
+        value:  m
+        next:   0x1534710
+ Node at 0x1534710
+        value:  d
+        next:   0
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+What do you want to do? s
+Displaying the current list: 
+Displaying linked list: 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ Node at 0x1534730
+        value:  h
+        next:   0x15346f0
+ Node at 0x15346f0
+        value:  m
+        next:   0x1534710
+ Node at 0x1534710
+        value:  d
+        next:   0
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+What do you want to do? n
+Create a list from an array
+Displaying linked list: 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ Node at 0x1534850
+        value:  a
+        next:   0x1534830
+ Node at 0x1534830
+        value:  2
+        next:   0x1534810
+ Node at 0x1534810
+        value:  d
+        next:   0x15347f0
+ Node at 0x15347f0
+        value:  4
+        next:   0x15347d0
+ Node at 0x15347d0
+        value:  5
+        next:   0x15347b0
+ Node at 0x15347b0
+        value:  f
+        next:   0x1534790
+ Node at 0x1534790
+        value:  z
+        next:   0x1534770
+ Node at 0x1534770
+        value:  9
+        next:   0x1534750
+ Node at 0x1534750
+        value:  f
+        next:   0
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+What do you want to do? u
+Enter an integer to insert in list1 or 0 to stop: 1
+Enter an integer to insert in list1 or 0 to stop: 6
+Enter an integer to insert in list1 or 0 to stop: 3
+Enter an integer to insert in list1 or 0 to stop: 4
+Enter an integer to insert in list1 or 0 to stop: 0
+Enter an integer to insert in list2 or 0 to stop: 2
+Enter an integer to insert in list2 or 0 to stop: 9
+Enter an integer to insert in list2 or 0 to stop: 6
+Enter an integer to insert in list2 or 0 to stop: 4
+Enter an integer to insert in list2 or 0 to stop: 0
+List1:
+Displaying linked list: 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ Node at 0x1534790
+        value:  1
+        next:   0x15347d0
+ Node at 0x15347d0
+        value:  3
+        next:   0x15347f0
+ Node at 0x15347f0
+        value:  4
+        next:   0x15347b0
+ Node at 0x15347b0
+        value:  6
+        next:   0
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+List2:
+Displaying linked list: 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ Node at 0x1534810
+        value:  2
+        next:   0x1534750
+ Node at 0x1534750
+        value:  4
+        next:   0x1534850
+ Node at 0x1534850
+        value:  6
+        next:   0x1534830
+ Node at 0x1534830
+        value:  9
+        next:   0
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Union:
+Displaying linked list: 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ Node at 0x1534770
+        value:  1
+        next:   0x1534870
+ Node at 0x1534870
+        value:  3
+        next:   0x1534890
+ Node at 0x1534890
+        value:  4
+        next:   0x15348b0
+ Node at 0x15348b0
+        value:  6
+        next:   0x15348d0
+ Node at 0x15348d0
+        value:  2
+        next:   0x15348f0
+ Node at 0x15348f0
+        value:  4
+        next:   0x1534910
+ Node at 0x1534910
+        value:  6
+        next:   0x1534930
+ Node at 0x1534930
+        value:  9
+        next:   0
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+What do you want to do? o
+What integer do you want to insert into sorted list? 9
+Before Inserting:
+Displaying linked list: 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+After Inserting:
+Displaying linked list: 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ Node at 0x1534850
+        value:  9
+        next:   0
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+What do you want to do? o
+What integer do you want to insert into sorted list? 3
+Before Inserting:
+Displaying linked list: 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ Node at 0x1534850
+        value:  9
+        next:   0
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+After Inserting:
+Displaying linked list: 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ Node at 0x1534750
+        value:  3
+        next:   0x1534850
+ Node at 0x1534850
+        value:  9
+        next:   0
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+What do you want to do? o
+What integer do you want to insert into sorted list? 5
+Before Inserting:
+Displaying linked list: 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ Node at 0x1534750
+        value:  3
+        next:   0x1534850
+ Node at 0x1534850
+        value:  9
+        next:   0
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+After Inserting:
+Displaying linked list: 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ Node at 0x1534750
+        value:  3
+        next:   0x1534810
+ Node at 0x1534810
+        value:  5
+        next:   0x1534850
+ Node at 0x1534850
+        value:  9
+        next:   0
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+What do you want to do? v
+The ordered linked list has 3 nodes
+What do you want to do? q
+Exiting...
+]0;nhudak3@erdos:~/data[nhudak3@erdos data]$ exit
+
+Script done on 2019-10-30 23:22:59-04:00 [COMMAND_EXIT_CODE="0"]

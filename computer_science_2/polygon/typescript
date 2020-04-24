@@ -1,0 +1,42 @@
+Script started on 2019-05-01 01:38:34-04:00
+]0;nhudak3@erdos:~/cs2/polygon[nhudak3@erdos polygon]$ cat test-polygon.cpp
+/* Nina Hudak
+ * Driver file for polygon class: test-polygon.cpp
+ */
+
+#include <iostream>
+#include "triangle.h"
+#include "polygon.h"
+
+using namespace std;
+
+int main()
+{
+    double triangle_base, triangle_height;
+    Triangle t;
+
+    cout << "\nEnter the base of the triangle: ";
+    cin >> triangle_base;
+    cout << "Enter the height of the triangle: ";
+    cin >> triangle_height;
+    t.assign_values(triangle_base, triangle_height);
+
+    cout << "\nArea: " << t.area() << endl;
+    t.print_base();
+    t.print_height();
+    cout << endl;
+
+    return 0;
+}
+]0;nhudak3@erdos:~/cs2/polygon[nhudak3@erdos polygon]$ ./test-polygon
+
+Enter the base of the triangle: 3
+Enter the height of the triangle: 4
+
+Area: 6
+Base: 3
+Height: 4
+
+]0;nhudak3@erdos:~/cs2/polygon[nhudak3@erdos polygon]$ exit
+
+Script done on 2019-05-01 01:39:12-04:00

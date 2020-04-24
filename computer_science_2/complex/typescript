@@ -1,0 +1,51 @@
+Script started on 2019-04-24 23:55:45-04:00
+]0;nhudak3@erdos:~/cs2/complex[nhudak3@erdos complex]$ ./cmath_1
+
+Enter a complex pair such as (5.1,2.3i): (5.1,2.3i)
+Enter a complex pair such as (5.1,2.3i): (5.1,2.3i)
+
+Enter a choice (a)dd, (s)ub, (m)ult, (d)iv, (e)xp: a
+
+Result is: (10.2,4.6i)
+
+Would you like to calculate again? (y)es or (n)o: y
+
+Enter a complex pair such as (5.1,2.3i): (5.1,2.3i)
+Enter a complex pair such as (5.1,2.3i): (5.1,2.3i)
+
+Enter a choice (a)dd, (s)ub, (m)ult, (d)iv, (e)xp: s
+
+Result is: (0,0i)
+
+Would you like to calculate again? (y)es or (n)o: y
+
+Enter a complex pair such as (5.1,2.3i): (5.1,2.3i)
+Enter a complex pair such as (5.1,2.3i): (5.1,2.3i)
+
+Enter a choice (a)dd, (s)ub, (m)ult, (d)iv, (e)xp: m
+
+Result is: (20.72,23.46i)
+
+Would you like to calculate again? (y)es or (n)o: y
+
+Enter a complex pair such as (5.1,2.3i): (5.1,2.3i)
+Enter a complex pair such as (5.1,2.3i): (5.1,2.3k i)
+
+Enter a choice (a)dd, (s)ub, (m)ult, (d)iv, (e)xp: d
+
+Result is: (1,0i)
+
+Would you like to calculate again? (y)es or (n)o: y
+
+Enter a complex pair such as (5.1,2.3i): (5.1,2.3k i)
+Enter a complex pair such as (5.1,2.3i): (5.1,2.3i)
+
+Enter a choice (a)dd, (s)ub, (m)ult, (d)iv, (e)xp: e
+Enter an integer exponent: 2
+
+Result is: (20.72,23.46i)
+
+Would you like to calculate again? (y)es or (n)o: n
+]0;nhudak3@erdos:~/cs2/complex[nhudak3@erdos complex]$ exit
+
+Script done on 2019-04-24 23:57:12-04:00

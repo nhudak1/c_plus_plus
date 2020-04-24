@@ -1,0 +1,31 @@
+Script started on 2019-11-06 14:37:26-05:00 [TERM="xterm-256color" TTY="/dev/pts/32" COLUMNS="90" LINES="44"]
+]0;nhudak3@erdos:~/data/stack[nhudak3@erdos stack]$ g++ stack.cpp -o stack.out
+]0;nhudak3@erdos:~/data/stack[nhudak3@erdos stack]$ ./stack.out
+
+Test Cases:
+
+Case 1: ()()]
+The parenthesis are not balanced
+
+Case 2: {[()(})
+The parenthesis are not balanced
+
+Case 3: [()]{}
+The parenthesis are balanced -- yay!
+
+Case 4: {[()()]{}}
+The parenthesis are balanced -- yay!
+
+Try it yourself!
+Enter a message to test or type q to quit: [is it balanced?[]]()
+The parenthesis are balanced -- yay!
+
+Enter a message to test or type q to quit: []{()00)
+The parenthesis are not balanced
+
+Enter a message to test or type q to quit: q
+Bye!
+
+]0;nhudak3@erdos:~/data/stack[nhudak3@erdos stack]$ exit
+
+Script done on 2019-11-06 14:38:13-05:00 [COMMAND_EXIT_CODE="0"]

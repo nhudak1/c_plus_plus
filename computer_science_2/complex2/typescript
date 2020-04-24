@@ -1,0 +1,109 @@
+Script started on 2019-05-02 08:19:02-04:00
+]0;nhudak3@erdos:~/cs2/complex2[nhudak3@erdos complex2]$ cat cmath_1.[K[K2.cpp
+/* Nina Hudak
+ * Driver file for complex class: cmath_2.cpp
+ * April 11, 2019
+ */
+
+#include <iostream>
+#include "complex_2.h"
+
+using namespace std;
+
+int main()
+{
+    char choice;
+    Complex a, b, c;
+    int exp;
+
+    do
+    {
+        cout << "\nEnter a complex pair such as (5.1,2.3i): ";
+        cin >> a;
+        cout << "Enter a complex pair such as (5.1,2.3i): ";
+        cin >> b;
+
+        cout << "\nEnter a choice (a)dd, (s)ub, (m)ult, (d)iv, (e)xp: ";
+        cin >> choice;
+
+        switch(choice)
+        {
+            case 'a': 
+                c= a + b;
+                break;
+            case 's':
+                c= a - b;
+                break;
+            case 'm':
+                c= a * b;
+                break;
+            case 'd':
+                c= a / b;
+                break;
+            case 'e':
+                cout << "Enter an integer exponent: ";
+                cin >> exp;
+                c= a ^ exp;
+                break;
+            default:
+                cout << "Entry Error: ";
+        }
+
+        cout << "\nResult is: " << c << endl;
+       
+        cout << "Would you like to calculate again? (y)es or (n)o: ";
+        cin >> choice;
+    }   while(choice == 'y');
+    return 0;
+}
+
+]0;nhudak3@erdos:~/cs2/complex2[nhudak3@erdos complex2]$ ./cmath_2
+
+Enter a complex pair such as (5.1,2.3i): (5.1,2.3i)
+Enter a complex pair such as (5.1,2.3i): (5.1,2.3i)
+
+Enter a choice (a)dd, (s)ub, (m)ult, (d)iv, (e)xp: a
+
+Result is: (10.2,4.6i)
+
+Would you like to calculate again? (y)es or (n)o: y
+
+Enter a complex pair such as (5.1,2.3i): (5.1,2.3i)
+Enter a complex pair such as (5.1,2.3i): (5.1,2.3i)
+
+Enter a choice (a)dd, (s)ub, (m)ult, (d)iv, (e)xp: s
+
+Result is: (0,0i)
+
+Would you like to calculate again? (y)es or (n)o: y
+
+Enter a complex pair such as (5.1,2.3i): (5.1,2.3i)
+Enter a complex pair such as (5.1,2.3i): (5.1,2.3i)
+
+Enter a choice (a)dd, (s)ub, (m)ult, (d)iv, (e)xp: m
+
+Result is: (20.72,23.46i)
+
+Would you like to calculate again? (y)es or (n)o: y
+
+Enter a complex pair such as (5.1,2.3i): (5.1,2.3i)
+Enter a complex pair such as (5.1,2.3i): (5.1,2.3i)
+
+Enter a choice (a)dd, (s)ub, (m)ult, (d)iv, (e)xp: d
+
+Result is: (1,0i)
+
+Would you like to calculate again? (y)es or (n)o: y
+
+Enter a complex pair such as (5.1,2.3i): (5.1,2.3i)
+Enter a complex pair such as (5.1,2.3i): (5.1,2.3i)
+
+Enter a choice (a)dd, (s)ub, (m)ult, (d)iv, (e)xp: e
+Enter an integer exponent: 2
+
+Result is: (20.72,23.46i)
+
+Would you like to calculate again? (y)es or (n)o: n
+]0;nhudak3@erdos:~/cs2/complex2[nhudak3@erdos complex2]$ exit
+
+Script done on 2019-05-02 08:20:05-04:00

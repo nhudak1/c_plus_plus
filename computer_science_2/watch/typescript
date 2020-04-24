@@ -1,0 +1,12 @@
+Script started on 2019-04-24 23:59:41-04:00
+]0;nhudak3@erdos:~/cs2/watch[nhudak3@erdos watch]$ ./test-watch
+
+Bubble Sort:
+Seconds passed: 1.0270229578
+
+Bubble Sort Recursive: 
+Seconds passed: 0.3336490095
+
+]0;nhudak3@erdos:~/cs2/watch[nhudak3@erdos watch]$ exit
+
+Script done on 2019-04-24 23:59:49-04:00
